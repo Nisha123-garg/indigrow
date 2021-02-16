@@ -1,0 +1,216 @@
+@import '../core/_bizgrow.scss';
+@import '../blocks/_header.scss';
+@import '../blocks/_navbar.scss';
+@import '../blocks/_banner.scss';
+@import '../blocks/_about.scss';
+@import '../blocks/_services.scss';
+@import '../blocks/_squares.scss';
+@import '../blocks/_client.scss';
+@import '../blocks/_members.scss';
+@import '../blocks/_contact.scss';
+@import '../blocks/_blogs.scss';
+@import '../blocks/_footer.scss';
+@import '../blocks/_product.scss';
+@import '../blocks/_summery.scss';
+@import '../blocks/_pslider.scss';
+@import '../blocks/about-page.scss';
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+}
+.bizg__font--family{
+    font-family: 'Poppins', sans-serif;
+}
+.bizgproductback{
+    background-color: #f3f3f3;
+}
+.testclass {
+    position: relative;
+}
+.testclass:before {
+    content: "";
+    position: absolute;
+    left: 0; right: 0;
+    top: 0; bottom: 0;
+    background: rgba(0,0,0,.5);
+}
+
+.bizgpagepadding{
+    padding: 0px 10%;
+}
+  
+
+
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) 
+{
+    .bizgrow{
+        .h5{
+            font-size: 16px;
+        }
+        .h2{
+            font-size: 20px;
+        }
+        .h4{
+            font-size: 16px;
+        }
+        .h6{
+            font-size: 14px;
+        }
+        >p{
+            font-size: 14px;
+        }
+        a{
+            font-size: 14px;
+        }
+        .bizgclients{
+            .btn-theme-icon{
+                >button{
+                    bottom: 0px;
+                    left: 10px;
+                }
+            }
+        }
+        .bizgabout{
+            .btn-theme-icon{
+                margin-top: 50px;
+                >button{
+                    bottom: 0px;
+                    margin-top: 40px;
+                    left: 10px;
+                }
+            }
+        }
+        .bizgservices{
+            & i{
+                font-size: 30px;
+            }
+        }
+        .bizgclients{
+            &__numbers {
+                & h5{
+                    font-size: 40px;
+                }
+            }
+            
+        }
+        .bizgcontact{
+            & .carousel-caption{
+                & span, h6, p{
+                    font-size: 12px;
+                }
+            }
+            
+            
+        }
+    }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) 
+{
+    .bizgrow{
+        .h5{
+            font-size: 16px;
+        }
+        .h2{
+            font-size: 20px;
+        }
+        .h4{
+            font-size: 18px;
+        }
+        .h6{
+            font-size: 14px;
+        }
+        >p{
+            font-size: 14px;
+        }
+        a{
+            font-size: 14px;
+        }
+        .bizgclients{
+            .btn-theme-icon{
+                >button{
+                    bottom: 0px;
+                }
+            }
+        }
+        .bizgabout{
+            .btn-theme-icon{
+                margin-top: 50px;
+                >button{
+                    bottom: 0px;
+                    margin-top: 40px;
+                }
+            }
+        }
+        .bizgservices{
+            & i{
+                font-size: 40px;
+            }
+        }
+        .bizgclients{
+            &__numbers {
+                & h5{
+                    font-size: 40px;
+                }
+            }
+            
+        }
+    }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) 
+{
+    .bizgrow{
+        .h5{
+            font-size: 18px;
+        }
+        .h2{
+            font-size: 22px;
+        }
+        .h4{
+            font-size: 20px;
+        }
+        .h6{
+            font-size: 14px;
+        }
+        >p{
+            font-size: 14px;
+        }
+        a{
+            font-size: 14px;
+        }
+        .bizgclients{
+            .btn-theme-icon{
+                >button{
+                    bottom: 0px;
+                }
+            }
+        }
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) 
+{
+        
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) 
+{
+
+}
+
+
+
