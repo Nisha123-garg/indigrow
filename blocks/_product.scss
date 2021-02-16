@@ -1,0 +1,16 @@
+.bizgproduct{
+    &__straight--line{
+        width: 80px;
+        height: 2px;
+        margin: 20px 0px;
+        background-color: #ffffff;
+    }
+    & table td{
+        font-size: 14px;
+    }
+    & .card{
+        & p{
+            color: $theme-secondary-text;
+        }
+    }
+}

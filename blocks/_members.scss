@@ -1,0 +1,59 @@
+.bizgmembers{
+    &__text{
+        & span{
+            color: $theme-primary;
+            font-size: 22px;
+            &:hover{
+                color: #e2c60c;
+            }            
+        }
+    }
+    &__icon{
+        &>a{
+            border-radius: 100%;
+            padding: 5px 7px;
+            background-color: $theme-primary;
+            &:last-child{
+                padding: 5px 10px;
+            }
+            &:first-child{
+                padding: 5px 10px;
+            }
+        }
+    }
+    & .owl-nav{
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 50%;
+    }
+    & .owl-carousel .owl-prev {
+        position: absolute;
+        bottom: 50%;
+        left:0;
+        height: 30px;
+        width: 30px;
+        background-color: $theme-primary !important;
+        color: white !important;
+        border-radius: 100%;
+        position:absolute;
+        
+     }
+    & .owl-carousel .owl-next {
+        position: absolute;
+        bottom: 50%;
+        right: 0;
+        height: 30px;
+        width: 30px;
+        background-color: $theme-primary !important;
+        color: white !important;
+        border-radius: 100%;
+        position:absolute;
+     }
+     &__straight--line{
+        width: 80px;
+        height: 2px;
+        margin: 20px 0px;
+        background-color: #ffffff;
+    }
+}

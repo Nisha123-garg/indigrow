@@ -1,0 +1,38 @@
+.bizgabout{
+    &__collapsible
+    {
+        background-color: transparent;    
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 16px;
+        &:hover
+        {
+            background-color: transparent;
+        }
+        &:after
+        {
+            content: '\002B';
+            font-weight: bold;
+            float: right;
+            margin-left: 5px;
+        }
+    }
+    &__content {
+        padding: 0 18px;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+        background-color: white;
+    }            
+    .btn-theme-icon{
+        >button{
+            color: #ffffff;
+            bottom: 0;
+            position: absolute;
+        }
+    }
+}

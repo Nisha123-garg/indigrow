@@ -1,0 +1,36 @@
+.bizgproductslider{
+    & .owl-nav{
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 50%;
+    }
+    & .owl-carousel .owl-prev {
+        position: absolute;
+        bottom: 50%;
+        left:0;
+        height: 30px;
+        width: 30px;
+        background-color: $theme-primary !important;
+        color: $theme-secondary !important;
+        border-radius: 100%;
+        position:absolute;
+        
+     }
+    & .owl-carousel .owl-next {
+        position: absolute;
+        bottom: 50%;
+        right: 0;
+        height: 30px;
+        width: 30px;
+        background-color:  $theme-primary  !important;
+        color:$theme-secondary !important;
+        border-radius: 100%;
+        position:absolute;
+     }
+     & .card-text{
+         color: $theme-primary;
+     }
+}
+
+ 

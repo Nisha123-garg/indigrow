@@ -1,0 +1,18 @@
+.bizgclients
+{
+    &__straight--line{
+        width: 80px;
+        height: 2px;
+        margin: 20px 0px;
+        background-color:$theme-secondary;
+    }
+    &__img{
+        background-color: $theme-primary;
+    }
+    .btn-theme-icon{
+        >button{
+            bottom: 40px;
+            position: absolute;
+        }
+    }
+}

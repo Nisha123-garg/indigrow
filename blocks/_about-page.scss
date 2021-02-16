@@ -1,0 +1,24 @@
+body{
+   & .bizgnav{
+        position: absolute;
+        width: 100%;
+        z-index: 10;
+    }
+   & .navbar-toggler-icon{
+        width: 1rem;
+        height: 1rem;
+    }
+  &  .navbar-light .navbar-toggler{
+        border-color: $theme-tertiary !important;
+    }
+  & .bizgsmallbanner{
+        position: absolute;
+        background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOUa7ytWkvAJM6-TaQyaFUrhB4uAZCBiRTHA&usqp=CAU');
+        padding: 130px 0px;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        min-width: 100vh;
+    }
+}
+    

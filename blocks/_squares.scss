@@ -1,0 +1,67 @@
+.bizgsquares
+{
+    &__straight--line{
+        width: 80px;
+        height: 2px;
+        margin: 20px 0px;
+        background-color: #ffffff;
+    }
+    &__text{
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+        &:hover{
+            opacity: 1;
+        }
+    }
+    &__img img{
+        opacity: 1;
+        display: block;
+        width: 100%;
+        height: auto;
+        transition: .5s ease;
+        backface-visibility: hidden;
+        border-radius: 10px;
+        &:hover{
+            opacity: 0.6;
+        }
+
+    }
+}
+
+
+
+  
+/*.image
+{
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}  
+.sqaure-text 
+{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}  
+.img-item:hover .image 
+{
+    opacity: 0.6;
+}  
+.img-item:hover .sqaure-text 
+{
+    opacity: 1;
+}*/

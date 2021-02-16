@@ -1,0 +1,41 @@
+.bizgfooter{
+    font-size: 14px;
+    &__content{
+        & li{
+            line-height: 40px;
+            list-style-type: none;
+        }
+    }
+    &__icon{
+        & a{
+            color: $theme-secondary;
+            font-size: 16px;
+            margin: 0px 2px;
+            border: 1px solid $theme-tertiary;
+            background-color: transparent;
+            border-radius: 100%;
+            padding: 7px 10px;
+            &:last-child{
+                padding: 7px 12px;
+            }
+            &:first-child{
+                padding: 7px 13px;
+            }
+            &:hover{
+                color: $theme-secondary;
+                background-color: $theme-tertiary;
+                transition: all 0.5s;
+            }
+        }
+    }
+    &__straight--line{
+        width: 80px;
+        height: 2px;
+        margin: 20px 0px;
+        background-color: $theme-secondary;
+        &:hover{
+            width: 120px;
+            transition: all 0.5s;
+        }
+    }
+}

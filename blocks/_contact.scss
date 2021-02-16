@@ -1,0 +1,15 @@
+.bizgcontact{
+    & .carousel-indicators{
+        padding-left: 0;
+        margin-right: 0;
+        margin-left: 70%;
+        margin-bottom: 0;
+        & li{
+            background-color: #e2c60c;
+            height: 10px;
+            width: 25px;
+            border-radius: 60px;
+        }
+    }
+}
+      
