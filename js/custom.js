@@ -56,7 +56,7 @@ $(document).ready(function () {
 
         smartSpeed: 1000,
         autoHeight: true,
-        autoplay: false,
+        autoplay: true,
         responsive: {
             0: {
 
@@ -87,7 +87,7 @@ $(document).ready(function () {
         nav: false,
         smartSpeed: 1000,
         autoHeight: true,
-        autoplay: false,
+        autoplay: true,
         responsive: {
             0: {
 
